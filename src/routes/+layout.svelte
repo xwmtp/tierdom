@@ -2,7 +2,7 @@
   import A from '$lib/components/A.svelte';
   import NavItem from '$lib/components/NavItem.svelte';
   import '../app.css';
-  import { page } from '$app/stores';
+  import {page} from '$app/stores';
   import DisplayModeSwitcher from '$lib/components/DisplayModeSwitcher.svelte';
 
   $: showDisplayModeSwitcher = $page.url.pathname.startsWith('/tier-lists/');
@@ -17,8 +17,6 @@
             <NavItem route="/">Home</NavItem>
             <span class="hidden md:inline-block w-2" />
             <NavItem route="/tier-lists/games">Games</NavItem>
-            <NavItem route="/tier-lists/books">Books</NavItem>
-            <NavItem route="/tier-lists/movies">Movies</NavItem>
             <span class="hidden md:inline-block w-2" />
             <NavItem route="/about">About</NavItem>
           </div>
@@ -37,14 +35,6 @@
   <footer class="mt-auto border-t border-t-slate-700 bg-black/10 py-2">
     <div class="px-2 md:px-4 opacity-50 text-sm">
       <div class="max-w-page mx-auto flex gap-4">
-        <span>© 2023, Jeroen Heijmans</span>
-        <span class="hidden md:inline-block">|</span>
-        <!-- svelte-ignore security-anchor-rel-noreferrer -->
-        <A href="https://jeroenheijmans.nl">WWW</A>
-        <span class="hidden md:inline-block">|</span>
-        <!-- svelte-ignore security-anchor-rel-noreferrer -->
-        <A href="https://blog.jeroenheijmans.nl">Blog</A>
-        <span class="hidden md:inline-block">|</span>
         <A href="https://github.com/jeroenheijmans/tierdom">Tierdom Source</A>
       </div>
     </div>
