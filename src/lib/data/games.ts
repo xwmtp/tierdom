@@ -55,7 +55,7 @@ export const games = [{
     "description": "The platformer classic. Enjoyed playing it as a kid, and fondly remember watching my parents play it. For some reason I don't really like to come back to it and don't love the movement of this Mario game very much. But the nostalgia is there!",
     "code": "super-mario-64"
 }, {
-    "tierLevel": "B",
+    "tierLevel": "A",
     "rating": 87,
     "props": {"platform": "n64"},
     "title": "Pilotwings 64",
@@ -149,7 +149,7 @@ export const games = [{
     "title": "Banjo-Tooie",
     "hasArt": true,
     "description": "Many believe this game is better than the original, since it has more of everything. More moves! More levels! More collectibles! More quests! It's not a bad game, but for me it really lacks the simplicity and charm that I admired in the original.",
-    "code": "banjotooie"
+    "code": "banjo-tooie"
 }, {
     "tierLevel": "D",
     "rating": 67,
@@ -201,7 +201,7 @@ export const games = [{
 }, {
     "tierLevel": "A",
     "rating": 92,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Super Smash Bros. Melee",
     "hasArt": true,
     "description": "The perfect super smash, a classic. The movement is butter smooth, the stages are great. Obviously enjoyed best when playing with friends, but also has fun modes for when playing alone.",
@@ -209,7 +209,7 @@ export const games = [{
 }, {
     "tierLevel": "C",
     "rating": 82,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Mario Kart: Double Dash",
     "hasArt": true,
     "description": "Definitely one of the beter Mario kart games, with classic tracks like DK Mountain, Baby Park and Mushroom Bridge.",
@@ -217,7 +217,7 @@ export const games = [{
 }, {
     "tierLevel": "E",
     "rating": 49,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Super Mario Sunshine",
     "hasArt": true,
     "description": "Probably not a bad game, but the worst 3D Mario for me. I just did not enjoy the general atmosphere, and the movement did not click with me. Never finished it.",
@@ -225,7 +225,7 @@ export const games = [{
 }, {
     "tierLevel": "A",
     "rating": 93,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Zelda: The Wind Waker",
     "hasArt": true,
     "description": "Stunning and unique art style, great story, solid dungeons. Not my favorite 3D Zelda, but it's close. Sailing the vast seas and exploring all the islands was quite an unforgettable experience.",
@@ -233,7 +233,7 @@ export const games = [{
 }, {
     "tierLevel": "C",
     "rating": 72,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Luigi's Mansion",
     "hasArt": true,
     "description": "Mostly remember booting this as my first GameCube game, and being blown away by how good 3D graphics had become. Pretty good game, but it didn't end up having a big impact on me.",
@@ -241,15 +241,15 @@ export const games = [{
 }, {
     "tierLevel": "C",
     "rating": 75,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Animal Crossing",
     "hasArt": true,
     "description": "Back when the villagers were still mean to you! This game felt pretty strange and sometimes a bit punishing (I'm still traumatized by Resetti), but it was also cute and refreshing.",
     "code": "animal-crossing"
 }, {
-    "tierLevel": "A",
+    "tierLevel": "B",
     "rating": 87,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Mario Party 4",
     "hasArt": true,
     "description": "My most played Mario Party game, I can dream these mini-games. Might be the best in the franchise. It has many of my favorite boards, and there aren't too many useless gimmicks yet like in later titles.",
@@ -257,7 +257,7 @@ export const games = [{
 }, {
     "tierLevel": "E",
     "rating": 51,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Pok\u00e9mon Colosseum",
     "hasArt": true,
     "description": "I know I've played it, but hardly remember anything, which is not a good sign. Seems to be yet another Pok\u00e9mon that does not really add anything special.",
@@ -265,7 +265,7 @@ export const games = [{
 }, {
     "tierLevel": "D",
     "rating": 68,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Mario Party 5",
     "hasArt": true,
     "description": "Mediocre game in the franchise. I disliked the capsule system and prefer the items from Mario Party 4.",
@@ -273,7 +273,7 @@ export const games = [{
 }, {
     "tierLevel": "E",
     "rating": 61,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Star Fox Adventures",
     "hasArt": true,
     "description": "Couldn't really get into this. Gave it a try because I loved Lylat Wars so much, but it's a very different kind of game.",
@@ -281,7 +281,7 @@ export const games = [{
 }, {
     "tierLevel": "A",
     "rating": 86,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Sonic Adventure 2: Battle",
     "hasArt": true,
     "description": "What a gem. The adrenaline rush while racing through the city, the hours proscrastinating in the chao garden... Very fond memories.",
@@ -289,7 +289,7 @@ export const games = [{
 }, {
     "tierLevel": "C",
     "rating": 72,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Mario Party 6",
     "hasArt": true,
     "description": "Mostly remember this game for the mic add-on that came with it. It frequently completely misunderstood what you said, resulting in hilarious moments. 'Who is this?' 'Mario'. 'Wario is incorrect!'. The day-and-night cycle was a fun addition.",
@@ -297,7 +297,7 @@ export const games = [{
 }, {
     "tierLevel": "C",
     "rating": 76,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Pikmin",
     "hasArt": true,
     "description": "Unusual and graphically stunning strategy game. It was fun, but I did feel a bit rushed and stressed by the fact that you couldn't redo days. I don't remember finishing it.",
@@ -305,7 +305,7 @@ export const games = [{
 }, {
     "tierLevel": "A",
     "rating": 92,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Zelda: Twilight Princess",
     "hasArt": true,
     "description": "Very solid 3D Zelda. Not as bold and original as The Wind Waker or Majora's Mask, but it has all the classic elements of a Zelda game and executes them well. I've always loved when Zelda incorporates darker themes.",
@@ -313,7 +313,7 @@ export const games = [{
 }, {
     "tierLevel": "D",
     "rating": 52,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Donkey Konga",
     "hasArt": true,
     "description": "Silly game; it's basically Guiter Hero but with drums. It was fun and new at the time, but didn't age very well.",
@@ -321,15 +321,15 @@ export const games = [{
 }, {
     "tierLevel": "A",
     "rating": 92,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Soulcalibur II",
     "hasArt": true,
     "description": "After liking smash bros, I was excited to play a fighting game for 'grown ups'. Came for Link, stayed for baddies like Talim, Nightmare and Sophitia. Only became reptitive because I poured so many hours into the story mode.",
     "code": "soulcalibur-ii"
 }, {
-    "tierLevel": "E",
+    "tierLevel": "F",
     "rating": 57,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Metroid Prime",
     "hasArt": true,
     "description": "Not my genre, but the game was hyped up so much that I tried it. Probably didn't try for long enough, but I didn't care enough to keep trying.",
@@ -337,23 +337,23 @@ export const games = [{
 }, {
     "tierLevel": "C",
     "rating": 72,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "WarioWare, Inc.: Mega Party Game$!",
     "hasArt": true,
     "description": "Has a few great multiplayer modes that I've played over and over with my friends.",
     "code": "warioware-inc-mega-party-game"
 }, {
-    "tierLevel": "E",
+    "tierLevel": "F",
     "rating": 61,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Beyond Good & Evil",
     "hasArt": true,
     "description": "All the praise for this game convinced me to try it, hoping it would be so good that it transcends the genre. Was not the case this time for me.",
-    "code": "beyond-good--evil"
+    "code": "beyond-good-evil"
 }, {
     "tierLevel": "C",
     "rating": 70,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Disney's Extreme Skate Adventure",
     "hasArt": true,
     "description": "Fun game to play as a kid. Liked it so much that I tried Tony Hawk afterwards, but kept coming back to this one.",
@@ -361,7 +361,7 @@ export const games = [{
 }, {
     "tierLevel": "D",
     "rating": 60,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Harry Potter: Quidditch World Cup",
     "hasArt": true,
     "description": "Never played a soccer video game, but I guess this comes pretty close. Remember enjoying this game quite much, playing teams from different countries around the world.",
@@ -369,7 +369,7 @@ export const games = [{
 }, {
     "tierLevel": "A",
     "rating": 90,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "SSX3",
     "hasArt": true,
     "description": "The way that all the areas are connected, allowing you to snowboard all the way down the mountain from the peak to the valley in one go. Unforgettable game. Also has an amazing soundtrack, which introduced me to one of my favorite bands, Placebo.",
@@ -377,15 +377,15 @@ export const games = [{
 }, {
     "tierLevel": "B",
     "rating": 82,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "SSX Tricky",
     "hasArt": true,
     "description": "My first snowboarding game. The controls are a bit clunkier than in its successor, but that did not spoil the fun for me as a kid. I absolutely wanted to be as badass as the characters in this game.",
     "code": "ssx-tricky"
 }, {
-    "tierLevel": "E",
+    "tierLevel": "F",
     "rating": 59,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "SSX On Tour",
     "hasArt": true,
     "description": "After loving SSX Tricky and SSX3 dearly, my expectations for this game were high. I don't quite remember why, but I never got into this one unfortunately. Did not match the vibe from the first two games.",
@@ -393,7 +393,7 @@ export const games = [{
 }, {
     "tierLevel": "S",
     "rating": 97,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Super Monkey Ball",
     "hasArt": true,
     "description": "Almost flawless. The concept is so simple; balance a monkey in a ball across a stage to the goal post. It's surprisingly fun, and also incredibly challenging. I think the number of casual players that ever unlocked the master levels is very low (and sadly doesn't include me, but my friend managed to!)",
@@ -401,17 +401,17 @@ export const games = [{
 }, {
     "tierLevel": "S",
     "rating": 94,
-    "props": {"platform": "gc"},
+    "props": {"platform": "gamecube"},
     "title": "Super Monkey Ball 2",
     "hasArt": true,
     "description": "The sequel is more accessible than the original, which made it even more fun for me. The stage design is not as simple and elegant as in the game, but that did not bother me.",
     "code": "super-monkey-ball-2"
 }, {
-    "tierLevel": "E",
+    "tierLevel": "F",
     "rating": 30,
-    "props": {"platform": "gc"},
-    "title": "The Sims",
+    "props": {"platform": "gamecube"},
+    "title": "The Sims GC",
     "hasArt": true,
     "description": "Adored the PC games, but on GC it just did not work. Controls are mostly to blame.",
-    "code": "the-sims"
+    "code": "the-sims-gc"
 }]
