@@ -5,7 +5,7 @@
 <div
   class={`
     flex min-h-[4rem]
-    bg-neutral-800/50 border-4 border-${tier.level}-tier
+    bg-neutral-800/50 border-8 border-${tier.level}-tier
   `}
 >
   <div
