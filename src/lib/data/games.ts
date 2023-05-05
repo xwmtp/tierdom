@@ -143,7 +143,7 @@ export const games = [{
     "description": "A lot better than the first. It has a few fun boards, with Horror Land being the highlight. The costume changes that the characters perform for each board is a fun detail.",
     "code": "mario-party-2"
 }, {
-    "tierLevel": "D",
+    "tierLevel": "C",
     "rating": 68,
     "props": {"platform": "n64"},
     "title": "Banjo-Tooie",
@@ -151,7 +151,7 @@ export const games = [{
     "description": "Many believe this game is better than the original, since it has more of everything. More moves! More levels! More collectibles! More quests! It's not a bad game, but for me it really lacks the simplicity and charm that I admired in the original.",
     "code": "banjo-tooie"
 }, {
-    "tierLevel": "D",
+    "tierLevel": "C",
     "rating": 67,
     "props": {"platform": "n64"},
     "title": "Donkey Kong 64",
@@ -279,7 +279,7 @@ export const games = [{
     "description": "Couldn't really get into this. Gave it a try because I loved Lylat Wars so much, but it's a very different kind of game.",
     "code": "star-fox-adventures"
 }, {
-    "tierLevel": "A",
+    "tierLevel": "B",
     "rating": 86,
     "props": {"platform": "gamecube"},
     "title": "Sonic Adventure 2: Battle",
@@ -414,4 +414,260 @@ export const games = [{
     "hasArt": true,
     "description": "Adored the PC games, but on GC it just did not work. Controls are mostly to blame.",
     "code": "the-sims-gc"
+}, {
+    "tierLevel": "D",
+    "rating": 71,
+    "props": {"platform": "wii"},
+    "title": "De Blob",
+    "hasArt": true,
+    "description": "The completionist in me enjoyed attempting to paint every single object in each level. I'm still mad at that one time where I spent hours and hours checking every corner and ending up stuck at 99%.",
+    "code": "de-blob"
+}, {
+    "tierLevel": "A",
+    "rating": 91,
+    "props": {"platform": "wii"},
+    "title": "Guitar Hero III: Legends of Rock",
+    "hasArt": true,
+    "description": "Absolute banger. This game introduced me to so much music I still enjoy. I poured hours and hours and hours into this game. It truly made me feel like a guitar god, even though I can hardly play a real one.",
+    "code": "guitar-hero-iii-legends-of-rock"
+}, {
+    "tierLevel": "D",
+    "rating": 68,
+    "props": {"platform": "wii"},
+    "title": "Guitar Hero: World Tour",
+    "hasArt": true,
+    "description": "Begged my parents for this game, which included a whole drum kit. Didn't end up enjoying it as much as I expected, the vibes were not as good as in GH3.",
+    "code": "guitar-hero-world-tour"
+}, {
+    "tierLevel": "B",
+    "rating": 87,
+    "props": {"platform": "wii"},
+    "title": "Mario Kart Wii",
+    "hasArt": true,
+    "description": "It's suprisingly fun and intuitive to steer using the WiiMote. There's a great selection of tracks, including my favorite in the whole series (Moo Moo Meadows). The drifting is very responsive in this game, giving it a unique feeling compared to the later games.",
+    "code": "mario-kart-wii"
+}, {
+    "tierLevel": "A",
+    "rating": 89,
+    "props": {"platform": "wii"},
+    "title": "Super Mario Galaxy",
+    "hasArt": true,
+    "description": "The best Mario game out there, in my opinion. Inventive level design, amazing orchestral soundtrack, and pretty intuitive movement. I 100%'d it three times: once as Mario, once as Luigi, and then once as Mario again on the Switch All Stars release.",
+    "code": "super-mario-galaxy"
+}, {
+    "tierLevel": "F",
+    "rating": 15,
+    "props": {"platform": "wii"},
+    "title": "Super Monkey Ball: Banana Blitz",
+    "hasArt": true,
+    "description": "I love the Super Monkey Ball franchise, but this game is abysmal. The level design is lazy and boring, making it tedious to play this for even more than 10 minutes.",
+    "code": "super-monkey-ball-banana-blitz"
+}, {
+    "tierLevel": "D",
+    "rating": 72,
+    "props": {"platform": "wii"},
+    "title": "Super Smash Bros. Brawl",
+    "hasArt": true,
+    "description": "Decently fun smash game. It's a lot more forgettable than Melee, but I had some fun with the story modes and playing this with friends.",
+    "code": "super-smash-bros-brawl"
+}, {
+    "tierLevel": "D",
+    "rating": 71,
+    "props": {"platform": "wii"},
+    "title": "WarioWare: Smooth Moves",
+    "hasArt": true,
+    "description": "Not my favourite Wario Ware, but the addition of real live movement with the WiiMote sure made for a lot of hilarious fun.",
+    "code": "warioware-smooth-moves"
+}, {
+    "tierLevel": "C",
+    "rating": 75,
+    "props": {"platform": "wii"},
+    "title": "Wii Fit",
+    "hasArt": true,
+    "description": "Fun way to keep active without leaving the house. The game has a good balance (hehe) between serious exercises and fun mini-games.",
+    "code": "wii-fit"
+}, {
+    "tierLevel": "D",
+    "rating": 51,
+    "props": {"platform": "wii"},
+    "title": "Wii Music",
+    "hasArt": true,
+    "description": "This game had terrible reviews. It's not a great game really, but I sure had some fun with it.",
+    "code": "wii-music"
+}, {
+    "tierLevel": "E",
+    "rating": 62,
+    "props": {"platform": "wii"},
+    "title": "Wii Sports",
+    "hasArt": true,
+    "description": "The classic Wii game, that everyone and their dog played back in the day. Bowling was okay.",
+    "code": "wii-sports"
+}, {
+    "tierLevel": "D",
+    "rating": 67,
+    "props": {"platform": "wii"},
+    "title": "Wii Sports Resort",
+    "hasArt": true,
+    "description": "This sequel had a lot more to it than the original. The island that was the backdrop to all the mini-games and exercises was a good addition, and the improved motion controls were very needed.",
+    "code": "wii-sports-resort"
+}, {
+    "tierLevel": "C",
+    "rating": 72,
+    "props": {"platform": "wii"},
+    "title": "Dokapon Kingdom",
+    "hasArt": true,
+    "description": "Mix Mario Party, a generic anime RPG and a pinch of parody together and you get this crazy game. It's charming and fun, but can also be very frustrating, which is the intention. ",
+    "code": "dokapon-kingdom"
+}, {
+    "tierLevel": "D",
+    "rating": 56,
+    "props": {"platform": "wii"},
+    "title": "Super Mario Galaxy 2",
+    "hasArt": true,
+    "description": "Even though I loved the original, I never really got very far in this sequel. What I've seen of it so far seems quite inferior, but I still intend to finish it one day to give a more informed verdict.",
+    "code": "super-mario-galaxy-2"
+}, {
+    "tierLevel": "D",
+    "rating": 70,
+    "props": {"platform": "wii"},
+    "title": "World of Goo",
+    "hasArt": true,
+    "description": "Pretty okay puzzle game. My sister was better at it than me I think.",
+    "code": "world-of-goo"
+}, {
+    "tierLevel": "C",
+    "rating": 59,
+    "props": {"platform": "wii u"},
+    "title": "Nintendo Land",
+    "hasArt": true,
+    "description": "Kind of a shitpost of a game, but it's unironically the Wii U game I've played the most. It has a few multiplayer mini games that make very good use of the Gamepad, providing one player with different information from their opponents. Especially Mario Chase and Luigi's Ghost Mansion are great fun to play with friends.",
+    "code": "nintendo-land"
+}, {
+    "tierLevel": "D",
+    "rating": 65,
+    "props": {"platform": "wii u"},
+    "title": "Super Mario 3D World",
+    "hasArt": true,
+    "description": "Decent Mario platformer, especially to play co-op. Not very memorable though, and some parts felt tedious.",
+    "code": "super-mario-3d-world"
+}, {
+    "tierLevel": "B",
+    "rating": 82,
+    "props": {"platform": "wii u"},
+    "title": "Mario Kart 8",
+    "hasArt": true,
+    "description": "One of my favorite kart games, although I must say I have a hard time telling it apart from the Switch remake. Tracks like Sunshine Airport and Mount Wario were very good. I like the slower responding drifting in this game.",
+    "code": "mario-kart-8"
+}, {
+    "tierLevel": "E",
+    "rating": 53,
+    "props": {"platform": "wii u"},
+    "title": "Super Smash Bros. for Wii U",
+    "hasArt": true,
+    "description": "Have very little memory of playing this smash game, even though I have it. Probably never played it with friends, so it deserves a low tier unfortunately.",
+    "code": "super-smash-bros-for-wii-u"
+}, {
+    "tierLevel": "D",
+    "rating": 57,
+    "props": {"platform": "wii u"},
+    "title": "Mario Party 10",
+    "hasArt": true,
+    "description": "The odd one out in the party series. It had an interesting mechanic where one player would control Bowser, chasing the others. Had a bit of fun with that, but otherwise quite forgettable.",
+    "code": "mario-party-10"
+}, {
+    "tierLevel": "E",
+    "rating": 62,
+    "props": {"platform": "wii u"},
+    "title": "Super Mario Maker",
+    "hasArt": true,
+    "description": "Gave this a try, but it wasn't for me. I couldn't find the motivation to build levels myself, and playing other people's shitpost levels also wasn't as enjoyable as I hoped.",
+    "code": "super-mario-maker"
+}, {
+    "tierLevel": "C",
+    "rating": 61,
+    "props": {"platform": "wii u"},
+    "title": "Star Fox Zero",
+    "hasArt": true,
+    "description": "Every now and then, this game made me feel a sliver of what I felt while playing Lylat Wars. That's a big compliment, but apart from that the game didn't manage to keep my attention.",
+    "code": "star-fox-zero"
+}, {
+    "tierLevel": "A",
+    "rating": 91,
+    "props": {"platform": "switch"},
+    "title": "Zelda: Breath of the Wild",
+    "hasArt": true,
+    "description": "This game sparked something in me that I hadn't felt in a long time while gaming, I just could not put it down. It was my first open world game, and I was determined to explore all there was to see in this vast world. The storytelling and replayability are not quite as good as in the other 3D Zelda's though.",
+    "code": "zelda-breath-of-the-wild"
+}, {
+    "tierLevel": "C",
+    "rating": 75,
+    "props": {"platform": "switch"},
+    "title": "Super Mario Odyssey",
+    "hasArt": true,
+    "description": "A beloved Mario game, but I didn't really get all the hype. Sure, the graphics look great as always, and the movement feels good, but this game didn't really charm me like it should hav. There is just way too much to collect, and you hardly need any of it to progress. I also missed a fun overworld or hub, like in SM64 or Galaxy.",
+    "code": "super-mario-odyssey"
+}, {
+    "tierLevel": "C",
+    "rating": 68,
+    "props": {"platform": "switch"},
+    "title": "Overcooked",
+    "hasArt": true,
+    "description": "Fun and hectic game to play with friends. Gets repetitive if you play it for too long, but in short sessions it's enjoyable.",
+    "code": "overcooked"
+}, {
+    "tierLevel": "C",
+    "rating": 70,
+    "props": {"platform": "switch"},
+    "title": "Tetris 99",
+    "hasArt": true,
+    "description": "The reason I bought the Nintendo Switch (unironically). This was such a hype when it came out, that I just couldn't miss out as a Tetris enjoyer.",
+    "code": "tetris-99"
+}, {
+    "tierLevel": "B",
+    "rating": 85,
+    "props": {"platform": "switch"},
+    "title": "Zelda: Link's Awakening",
+    "hasArt": true,
+    "description": "Very decent remake, only complaint is that it was sold for full price. Bonus points for the super cute graphics.",
+    "code": "zelda-links-awakening"
+}, {
+    "tierLevel": "C",
+    "rating": 75,
+    "props": {"platform": "switch"},
+    "title": "Ring Fit Adventure",
+    "hasArt": true,
+    "description": "Kept me in shape during pandemic lockdown!",
+    "code": "ring-fit-adventure"
+}, {
+    "tierLevel": "C",
+    "rating": 63,
+    "props": {"platform": "switch"},
+    "title": "Just Dance 2020",
+    "hasArt": true,
+    "description": "First game I tried in this long ongoing franchise. It's good to keep you in shape, and I loved dancing to Ariana more than I'd like to admit in public. Ubisoft gets pretty annoying though, begging you to sign up for their subscription service.",
+    "code": "just-dance-2020"
+}, {
+    "tierLevel": "B",
+    "rating": 84,
+    "props": {"platform": "switch"},
+    "title": "Animal Crossing: New Horizons",
+    "hasArt": true,
+    "description": "This game was an absolute godsend, coming out just at the start of the first lockdown. Every morning I'd wake up and play for an hour or two. The graphics in the game are stunning, and you're granted more freedom than ever before in the franchise. The latter is both a good and bad thing in my opinion, and some of the uniqueness and charm seems lost due to it.",
+    "code": "animal-crossing-new-horizons"
+}, {
+    "tierLevel": "D",
+    "rating": 63,
+    "props": {"platform": "switch"},
+    "title": "New Pok\u00e9mon Snap",
+    "hasArt": true,
+    "description": "Has all the elements to be as good as the original N64 version, but I guess the concept worked better in 1999. I still had decent fun playing through this for a couple of hours though.",
+    "code": "new-pokemon-snap"
+}, {
+    "tierLevel": "D",
+    "rating": 61,
+    "props": {"platform": "switch"},
+    "title": "Super Monkey Ball: Banana Mania",
+    "hasArt": true,
+    "description": "Won't forgive this remake for not having a multiplayer mode... Without it, the amount of time I spent on this game was limited.",
+    "code": "super-monkey-ball-banana-mania"
 }]
