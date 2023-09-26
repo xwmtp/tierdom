@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { goto } from '$app/navigation';
-  import { page } from '$app/stores';
-  import { onMount } from 'svelte';
+  import {goto} from '$app/navigation';
+  import {page} from '$app/stores';
+  import {onMount} from 'svelte';
 
-  import type { Item } from '$lib/models/Item';
+  import type {Item} from '$lib/models/Item';
 
   import InfoBox from '$lib/components/InfoBox.svelte';
   import ItemModal from '$lib/components/ItemModal.svelte';
@@ -59,31 +59,24 @@
 
 <!-- prettier-ignore -->
 <div class="max-w-4xl">
-  <h2 class="text-xl font-bold mt-4">Where's the rest!?</h2>
+  <h2 class="text-xl font-bold mt-4">Is this exhaustive?</h2>
   <p class="mt-2">
-    Mmmhhh... these are all the games I remember playing, and for long enough to form an honest opinion on them.
-    There might be a handful missing (especially from longer ago), and I will add them when I think of them.
-    But 90%+ of all games I've ever (seriously) played should be on here.
+    These are all the games I remember playing, and played for a long enough time to form an opinion on them.
+    I've had to leave out a lot of games that I played a very long time ago, and hardly remember.
   </p>
-  <h2 class="text-xl font-bold mt-4">How stable is this tier list?</h2>
-  <p class="mt-2">
-    Extremely stable! Let me explain.
-  </p>
+  <h2 class="text-xl font-bold mt-4">What do the tiers mean?</h2>
   <p class="mt-4">
     The tier a game belongs to is how 'impactful' it was to me, how much I enjoyed it given its time and context.
-    There might then also be several cases where a high tier does <em>not</em> automatically imply a recommendation.
-  </p>
-  <p class="mt-4">
-    New games added (as I play them) will be <em>inserted</em> into the list.
-    But this will leave the list otherwise stable.
+    There might be several cases where a high tier does <em>not</em> automatically imply a recommendation.
   </p>
   <h2 class="text-xl font-bold mt-4">What about the xx/100 ratings?</h2>
   <p class="mt-2">
     These indicate how high I rate the <em>quality</em> of the game (also given its time period).
-    There's a strong correlation between high tiers and high ratings.
+    They're supposed to be a bit more objective than the tiers, so a high rating should generally mean I recommend the game.
+    There's a strong correlation between high tiers and high ratings though.
   </p>
   <p class="mt-4">
-    Notable exceptions include for example games that <em>mean a lot to me</em>, but might still have a rather low rating because they're still bad games.
-    Vice versa some games with high quality didn't click for me, so they might end up in a low tier.
+    Notable exceptions are for example games that <em>mean a lot to me</em>, but have a low rating because they're bad games.
+    Vice versa, some high quality games didn't click for me, so they ended up in a low tier.
   </p>
 </div>
