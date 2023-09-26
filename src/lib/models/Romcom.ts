@@ -1,7 +1,7 @@
 import { ratingToHsl } from './util';
 import type { Item } from './Item';
 
-export class Game implements Item {
+export class Romcom implements Item {
   tierLevel: string;
   code: string;
   title: string;
@@ -25,9 +25,9 @@ export class Game implements Item {
     this.description = dto.description;
     this.props = dto.props;
 
-    this.mainProp = this.props['platform'];
+    this.mainProp = this.props['year'];
     this.ratingColor = ratingToHsl(this.rating);
-    this.artUrlSquare = `/art/games/${this.code}.png`;
-    this.iconUrl = `/img/controller-${this.mainProp.replace(' ', '-')}.svg`;
+    this.artUrlSquare = `/art/romcoms/${this.code}.png`;
+    this.iconUrl = null;
   }
 }
