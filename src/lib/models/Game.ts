@@ -1,5 +1,5 @@
-import { ratingToHsl } from './util';
-import type { Item } from './Item';
+import {ratingToHsl} from './util';
+import type {Item} from './Item';
 
 export class Game implements Item {
   tierLevel: string;
@@ -28,6 +28,6 @@ export class Game implements Item {
     this.mainProp = this.props['platform'];
     this.ratingColor = ratingToHsl(this.rating);
     this.artUrlSquare = `/art/games/${this.code}.png`;
-    this.iconUrl = `/img/controller-${this.mainProp}.svg`;
+    this.iconUrl = `/img/controller-${this.mainProp.replace(' ', '-')}.svg`;
   }
 }
