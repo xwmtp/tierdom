@@ -27,7 +27,7 @@ export class Game implements Item {
 
     this.mainProp = this.props['platform'];
     this.ratingColor = ratingToHsl(this.rating);
-    this.artUrlSquare = `/art/games/${this.code}.png`;
+    this.artUrlSquare = `/art/games/${this.code}.jpg`;
     this.iconUrl = `/img/controller-${this.mainProp.replace(' ', '-')}.svg`;
   }
 }

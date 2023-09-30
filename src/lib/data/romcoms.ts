@@ -4,7 +4,7 @@ export const romcoms = [
     rating: 95,
     props: { year: '2018' },
     title: 'Crazy Rich Asians',
-    hasArt: false,
+    hasArt: true,
     description: 'Michelle Yeoh is in it, what more can you want. Loved the story, visuals, music, everything. 10/10 made me cry.',
     code: 'crazy-rich-asians',
   },

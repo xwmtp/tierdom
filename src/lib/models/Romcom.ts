@@ -27,7 +27,7 @@ export class Romcom implements Item {
 
     this.mainProp = this.props['year'];
     this.ratingColor = ratingToHsl(this.rating);
-    this.artUrlSquare = `/art/romcoms/${this.code}.png`;
+    this.artUrlSquare = `/art/romcoms/${this.code}.jpg`;
     this.iconUrl = null;
   }
 }

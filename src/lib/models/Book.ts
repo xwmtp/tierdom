@@ -51,7 +51,7 @@ export class Book implements Item {
     this.isbn = naiveIsbnFormatter(this.props['isbn']);
     this.mainProp = this.props['year'];
     this.ratingColor = ratingToHsl(this.rating);
-    this.artUrlSquare = `/art/books/${this.code}.png`;
+    this.artUrlSquare = `/art/books/${this.code}.jpg`;
     this.iconUrl = null; // TODO
   }
 }
