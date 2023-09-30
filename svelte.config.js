@@ -7,12 +7,7 @@ const config = {
 
   kit: {
     paths: {
-      // Documentation typically wants you to include the repository
-      // name in non-dev environments, because GitHub.io Pages sites
-      // serve under a specific path. However, we skip that, because
-      // we intend to serve the GitHub pages site with a DNS record
-      // on a subdomain of our TLD anyways.
-      base: '',
+      base: process.env.NODE_ENV === 'production' ? '/tierdom' : '',
     },
     adapter: adapter({
       manifest: false,

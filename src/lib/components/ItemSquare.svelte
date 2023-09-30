@@ -1,10 +1,12 @@
 <script lang="ts">
-  import type { Item } from '$lib/models/Item';
+  import type { Item } from "$lib/models/Item";
+  import { base } from "$app/paths";
+
   export let item: Item;
   export let clazz: string = '';
 
   export const gradient = 'linear-gradient(rgba(20, 20, 30, 0.6), rgba(20, 20, 30, 0.6))';
-  $: squareBackgroundStyle = item.hasArt ? `background-image: ${gradient}, url('${item.artUrlSquare}');` : `background-image: ${gradient};`;
+  $: squareBackgroundStyle = item.hasArt ? `background-image: ${gradient}, url('${base}${item.artUrlSquare}');` : `background-image: ${gradient};`;
 </script>
 
 <button

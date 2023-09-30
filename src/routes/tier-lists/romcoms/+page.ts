@@ -1,5 +1,6 @@
 import { redirect } from '@sveltejs/kit';
+import { base } from '$app/paths';
 
 export function load() {
-  throw redirect(302, '/tier-lists/romcoms/overview');
+  throw redirect(302, `${base}/tier-lists/romcoms/overview`);
 }

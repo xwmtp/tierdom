@@ -1,7 +1,8 @@
 <script lang="ts">
-  import { fade } from 'svelte/transition';
-  import { createEventDispatcher, onDestroy, onMount } from 'svelte';
-  import type { Item } from '$lib/models/Item';
+  import { fade } from "svelte/transition";
+  import { createEventDispatcher, onDestroy, onMount } from "svelte";
+  import type { Item } from "$lib/models/Item";
+  import { base } from "$app/paths";
 
   const dispatch = createEventDispatcher();
   export let item: Item;
@@ -43,6 +44,7 @@
 
 <div class="fixed top-0 left-0 bottom-0 right-0 z-50 flex backdrop-blur-sm" transition:fade={{ duration: 150 }}>
   <div
+    role="presentation"
     class="fixed top-0 left-0 bottom-0 right-0 bg-black/50"
     on:keydown={() => dispatch('dismiss')}
     on:click={() => dispatch('dismiss')}
@@ -70,10 +72,10 @@
       </div>
       <div class="flex flex-wrap gap-2">
         {#if item.hasArt}
-          <img class="h-24" src={item.artUrlSquare} alt={`Box art for ${item.title}`} />
+          <img class="h-24" src={`${base}${item.artUrlSquare}`} alt={`Box art for ${item.title}`} />
         {/if}
         {#if !!item.iconUrl}
-          <img src={item.iconUrl} alt="controller for game system" class="invert h-24" />
+          <img src={`${base}${item.iconUrl}`} alt="controller for game system" class="invert h-24" />
         {/if}
       </div>
       <div class="h-[4px] mt-4 bg-slate-400 opacity-70">

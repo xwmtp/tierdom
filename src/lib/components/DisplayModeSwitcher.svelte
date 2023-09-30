@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { page } from '$app/stores';
+  import { page } from "$app/stores";
+  import { base } from "$app/paths";
 
   $: path = $page.url.pathname;
   $: layoutMode = path.endsWith('/overview') ? 'overview' : 'detailed';
@@ -14,7 +15,7 @@
   title="toggle compact mode with little squares"
   href={overviewUrl}
 >
-  <img src="/img/layout-mode-grid.svg" class="h-6" alt="3 by 3 little squares" />
+  <img src="{base}/img/layout-mode-grid.svg" class="h-6" alt="3 by 3 little squares" />
   <span class="hidden lg:inline-block">Grid with icons</span>
 </a>
 <a
@@ -24,6 +25,6 @@
   title="toggle extended mode with full reviews"
   href={detailedUrl}
 >
-  <img src="/img/layout-mode-list.svg" class="h-6" alt="3 horizontal bars" />
+  <img src="{base}/img/layout-mode-list.svg" class="h-6" alt="3 horizontal bars" />
   <span class="hidden lg:inline-block">Full descriptions</span>
 </a>
