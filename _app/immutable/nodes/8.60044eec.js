@@ -1,1 +1,0 @@
-import{r as e}from"../chunks/index.d7eb2526.js";import{b as o}from"../chunks/paths.be97c6ec.js";function r(){throw e(302,`${o}/tier-lists/romcoms/overview`)}const a=Object.freeze(Object.defineProperty({__proto__:null,load:r},Symbol.toStringTag,{value:"Module"}));export{a as universal};
