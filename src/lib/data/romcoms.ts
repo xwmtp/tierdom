@@ -58,12 +58,12 @@ export const romcoms = [
     code: 'mamma-mia',
   },
   {
-    tierLevel: 'C',
+    tierLevel: 'D',
     rating: 82,
     props: { year: '2010' },
     title: 'Scott Pilgrim vs. the World',
     hasArt: true,
-    description: "Unique, objectively a good movie. I'm not very big on action movies though, which lowers the tier a bit.",
+    description: "Unique, objectively a good movie. I'm not very big on action movies though, which lowers the tier quite a bit.",
     code: 'scott-pilgrim-vs-the-world',
   },
   {
@@ -188,5 +188,15 @@ export const romcoms = [
     description:
       'Only reason I saw this is because I wanted to go to the cinema and there was nothing better. Love Actually clone but a lot worse.',
     code: 'new-years-eve',
+  },
+  {
+    tierLevel: 'C',
+    rating: 60,
+    props: { year: '2022' },
+    title: 'Ticket to Paradise',
+    hasArt: true,
+    description:
+      "Follows the romcom formula 100%, without any surprises or twists. I found many parts almost too unrealistic to enjoy the movie, but I must say I was touched in the final scenes. Even though it's not the best, I'm glad to see classic romcoms still being made.",
+    code: 'ticket-to-paradise',
   },
 ];
