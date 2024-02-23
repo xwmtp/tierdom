@@ -1,5 +1,44 @@
 export const games = [
   {
+    tierLevel: 'A',
+    rating: 89,
+    props: { platform: '3ds' },
+    title: 'Zelda: A Link Between Worlds',
+    hasArt: true,
+    description:
+      "I generally prefer 3D Zelda's, but this is my favorite top-down game in the franchise. It's A Link to the Past but a lot better. Great music, good mechanics, just a great game overall.",
+    code: 'zelda-a-link-between-worlds',
+  },
+  {
+    tierLevel: 'B',
+    rating: 82,
+    props: { platform: 'ds' },
+    title: 'Super Princess Peach',
+    hasArt: true,
+    description: "Surprisingly enjoyable! Maybe the themes would be a bit icky nowadays (Peach's superpowers are her... emotions)",
+    code: 'super-princess-peach',
+  },
+  {
+    tierLevel: 'A',
+    rating: 87,
+    props: { platform: 'ds' },
+    title: 'Zelda: Phantom Hourglass',
+    hasArt: true,
+    description:
+      'Criminally underrated in my opinion. I really enjoyed the mechanic where you keep coming back to the same dungeon, with more items each time allowing you to go deeper. Kind of similar to a speedrun. This game also has great humor. I recommend!',
+    code: 'zelda-phantom-hourglass',
+  },
+  {
+    tierLevel: 'C',
+    rating: 78,
+    props: { platform: 'ds' },
+    title: 'Zelda: Spirit Tracks',
+    hasArt: true,
+    description:
+      "There is no apparent reason why I'd like this successor to Phantom Hourglass a lot less. Maybe trains are not as fun as ships in these kind of games? I never got past the first dungeon, but I still intend to continue one day.",
+    code: 'zelda-spirit-tracks',
+  },
+  {
     tierLevel: 'C',
     rating: 75,
     props: { platform: 'gamecube' },
@@ -263,6 +302,178 @@ export const games = [
     code: 'zelda-twilight-princess',
   },
   {
+    tierLevel: 'A',
+    rating: 88,
+    props: { platform: 'gb' },
+    title: 'Pokémon Red',
+    hasArt: true,
+    description: 'Classic. 1st gen, best gen.',
+    code: 'pokemon-red',
+  },
+  {
+    tierLevel: 'B',
+    rating: 86,
+    props: { platform: 'gba' },
+    title: 'Kuru Kuru Kururin',
+    hasArt: true,
+    description:
+      "Very unique game, where you have to rotate a slowly rotating stick through various mazes. It's challenging and has a great soundtrack. I have fond memories.",
+    code: 'kuru-kuru-kururin',
+  },
+  {
+    tierLevel: 'D',
+    rating: 81,
+    props: { platform: 'gba' },
+    title: 'Mario & Luigi: Superstar Saga',
+    hasArt: true,
+    description: "Solid role-based RPG. I don't have much to complain about it, but the game is just not particularly dear to me.",
+    code: 'mario-luigi-superstar-saga',
+  },
+  {
+    tierLevel: 'D',
+    rating: 68,
+    props: { platform: 'gba' },
+    title: 'Mario Kart Super Circuit',
+    hasArt: true,
+    description: 'Ok, but not very memorable for me. Enjoyed other kart games more.',
+    code: 'mario-kart-super-circuit',
+  },
+  {
+    tierLevel: 'C',
+    rating: 82,
+    props: { platform: 'gba' },
+    title: 'Pokémon Emerald',
+    hasArt: true,
+    description:
+      "Played this one later in life, on emulator. Did not finish it though. I think it was a pretty good game, but the later gens don't spark as much joy for me.",
+    code: 'pokemon-emerald',
+  },
+  {
+    tierLevel: 'B',
+    rating: 85,
+    props: { platform: 'gba' },
+    title: 'Pokémon FireRed',
+    hasArt: true,
+    description:
+      "My favorite Pokémon release ever ('cause 1st gen, best gen). Red was a great game, and this one just looks so much better. Nostalgia all around.",
+    code: 'pokemon-firered',
+  },
+  {
+    tierLevel: 'D',
+    rating: 60,
+    props: { platform: 'gba' },
+    title: 'Pokémon Pinball',
+    hasArt: true,
+    description: "Remember that it came with a huge rumble pack. I mean, it's pinball, nothing special really.",
+    code: 'pokemon-pinball',
+  },
+  {
+    tierLevel: 'D',
+    rating: 60,
+    props: { platform: 'gba' },
+    title: 'SSX Tricky GBA',
+    hasArt: true,
+    description: 'Gameboy version of the great GameCube game. Not as good, but kept me entertained during vacations.',
+    code: 'ssx-tricky-gba',
+  },
+  {
+    tierLevel: 'D',
+    rating: 78,
+    props: { platform: 'gba' },
+    title: 'Super Mario World 3',
+    hasArt: true,
+    description:
+      "Pretty good game to be fair, but side-scrolling Mario's are not really my favorite, so naturally that lowers the tier a bit.",
+    code: 'super-mario-world-3',
+  },
+  {
+    tierLevel: 'D',
+    rating: 58,
+    props: { platform: 'gba' },
+    title: 'Super Monkey Ball Jr',
+    hasArt: true,
+    description:
+      "Was an okay pocket version of Super Monkey Ball Jr back in the day. I'm sure the controls felt a lot worse than on console though.",
+    code: 'super-monkey-ball-jr',
+  },
+  {
+    tierLevel: 'A',
+    rating: 88,
+    props: { platform: 'gba' },
+    title: "The Sims: Bustin' Out",
+    hasArt: true,
+    description:
+      "Such a simple game: you're a Sim who just moved to a new town, and you have to befriend the inhabitants while running errands and playing mini games. This game is not quite as good as its successor, but it is unique and charming. The wacky characters and silly plot made me fall in love with this game.",
+    code: 'the-sims-bustin-out',
+  },
+  {
+    tierLevel: 'S',
+    rating: 91,
+    props: { platform: 'gba' },
+    title: 'The Urbz: Sims in the City',
+    hasArt: true,
+    description:
+      "Maybe an odd type of game to be in S-tier, but I've almost never had so much fun with a handheld game. The game is full of humor, the characters are quirky, and the soundtrack is out of this world. I've probably finished this game at least five times, and came back to it at different times in my life. Truly a hidden gem in my opinion.",
+    code: 'the-urbz-sims-in-the-city',
+  },
+  {
+    tierLevel: 'B',
+    rating: 72,
+    props: { platform: 'gba' },
+    title: 'Tweety and the Magic Gems',
+    hasArt: true,
+    description:
+      "You play a board game across the globe, to collect five gems in different major world cities before Tweety turns into stone. That's basically it. Something about it was incredibly charming, and I played it over and over and over again. My parents even had to buy a second copy because I kept fighting with my sister who could play. It did teach me some basic geography!",
+    code: 'tweety-and-the-magic-gems',
+  },
+  {
+    tierLevel: 'C',
+    rating: 78,
+    props: { platform: 'gba' },
+    title: 'Zelda: The Minish Cap',
+    hasArt: true,
+    description: "Cute and fun 2D Zelda. The 2D ones have never been my favorite, but it's an enjoyable game for sure.",
+    code: 'zelda-the-minish-cap',
+  },
+  {
+    tierLevel: 'C',
+    rating: 67,
+    props: { platform: 'gbc' },
+    title: 'Game & Watch Gallery 2',
+    hasArt: true,
+    description:
+      'Consists of six extremely simple, but challening mini games. Would probably be boring af nowadays, but back in the day I grinded over and over for a high score.',
+    code: 'game-watch-gallery-2',
+  },
+  {
+    tierLevel: 'D',
+    rating: 65,
+    props: { platform: 'gbc' },
+    title: "Mickey's Racing Adventure",
+    hasArt: true,
+    description: "Know that I had a lot fun with this as a kid, but honestly can't remember the details very clearly.",
+    code: 'mickeys-racing-adventure',
+  },
+  {
+    tierLevel: 'B',
+    rating: 86,
+    props: { platform: 'gbc' },
+    title: 'Pokémon Yellow',
+    hasArt: true,
+    description: 'Like Pokémon Red, but with a Pikachu following your player around. What more can you want.',
+    code: 'pokemon-yellow',
+  },
+  {
+    tierLevel: 'D',
+    rating: 70,
+    props: { platform: 'gbc' },
+    title: 'The Smurfs Nightmare',
+    hasArt: true,
+    description:
+      "Remember playing this a ton when I was little, but when I look up gameplay videos now I don't remember ever getting past the first level. Difficult game!",
+    code: 'the-smurfs-nightmare',
+  },
+  {
     tierLevel: 'S',
     rating: 97,
     props: { platform: 'n64' },
@@ -511,6 +722,46 @@ export const games = [
   },
   {
     tierLevel: 'B',
+    rating: 83,
+    props: { platform: 'pc' },
+    title: 'Age of Empires',
+    hasArt: true,
+    description:
+      "Got quite addicted to this for a while. It's a classic, and I'd play the rerelease if it didn't always crash whenever I try to LAN with my partner...",
+    code: 'age-of-empires',
+  },
+  {
+    tierLevel: 'D',
+    rating: 63,
+    props: { platform: 'pc' },
+    title: 'Among Us',
+    hasArt: true,
+    description:
+      "Tried it with online friends during the covid hype. The game is alright, it's not really a new concept but it works well. It just isn't for me... I'm way too bad at lying lol.",
+    code: 'among-us',
+  },
+  {
+    tierLevel: 'E',
+    rating: 60,
+    props: { platform: 'pc' },
+    title: 'Cities: Skylines',
+    hasArt: true,
+    description:
+      'Played it for an hour and dearly missed Simcity 4. I should probably spend more time on it, but the UI kinda frustrated me.',
+    code: 'cities-skylines',
+  },
+  {
+    tierLevel: 'C',
+    rating: 55,
+    props: { platform: 'pc' },
+    title: "Disney's Roller Coaster Challenge",
+    hasArt: true,
+    description:
+      'This was a RollerCoaster Tycoon knockoff, where you could only build the coasters and not parks. It entertained me for many hours though as a kid.',
+    code: 'disneys-roller-coaster-challenge',
+  },
+  {
+    tierLevel: 'B',
     rating: 72,
     props: { platform: 'pc' },
     title: 'Euro Truck Simulator 2',
@@ -528,6 +779,45 @@ export const games = [
     description:
       "For a long time I was hesitant to buy this, but I'm so glad I did, because it 100% lived up to the hype. I had to work really really hard to finish it, and it was worth every hour. Did not know rogue-like could be this fun, and I'm still impressed by the seemingly never-ending amount of unique dialogue.",
     code: 'hades',
+  },
+  {
+    tierLevel: 'B',
+    rating: 82,
+    props: { platform: 'pc' },
+    title: 'Harry Potter and the Chamber of Secrets',
+    hasArt: true,
+    description: 'Fun sequel, had a great time playing this as a kid.',
+    code: 'harry-potter-and-the-chamber-of-secrets',
+  },
+  {
+    tierLevel: 'B',
+    rating: 85,
+    props: { platform: 'pc' },
+    title: "Harry Potter and the Philosopher's Stone",
+    hasArt: true,
+    description:
+      'I was absolutely blown away by the graphics when this came out, which is kind of funny looking back. It was one of the first 3D PC games I played, and I have very fond memories.',
+    code: 'harry-potter-and-the-philosophers-stone',
+  },
+  {
+    tierLevel: 'C',
+    rating: 77,
+    props: { platform: 'pc' },
+    title: 'It Takes Two',
+    hasArt: true,
+    description:
+      'Finished this game with my partner and had a decently good time. The game definitely dragged at times, but the inventive puzzles and cooperation strategies made up for it. Will never unsee what I had to do to the elephant though...',
+    code: 'it-takes-two',
+  },
+  {
+    tierLevel: 'D',
+    rating: 68,
+    props: { platform: 'pc' },
+    title: 'Minit',
+    hasArt: true,
+    description:
+      'Alright little game, keeps you busy for a few hours. The concept of dying every minute is cool, but also does get annoying at points. The ending was a bit unsatisfying.',
+    code: 'minit',
   },
   {
     tierLevel: 'S',
@@ -548,6 +838,25 @@ export const games = [
     description:
       "My feelings on this are very mixed. I think it's a worthy DLC to a perfect base game, but the horror themes were so strong I nearly gave up countless of times. A few alterations would have made the experience a lot less painful for me, but I'm very happy and frankly quite proud I managed to finish it. ",
     code: 'outer-wilds-echoes-of-the-eye',
+  },
+  {
+    tierLevel: 'C',
+    rating: 79,
+    props: { platform: 'pc' },
+    title: 'Portal 2',
+    hasArt: true,
+    description: 'Only played the co-op story, and had a good time solving puzzles with my partner.',
+    code: 'portal-2',
+  },
+  {
+    tierLevel: 'A',
+    rating: 91,
+    props: { platform: 'pc' },
+    title: 'RollerCoaster Tycoon 2',
+    hasArt: true,
+    description:
+      'The perfect simulation game. I kept coming back to it, and every time I got addicted. Maybe some of the logic in this game would be a bit janky nowadays, but that was never really a problem.',
+    code: 'rollercoaster-tycoon-2',
   },
   {
     tierLevel: 'A',
@@ -571,13 +880,53 @@ export const games = [
   },
   {
     tierLevel: 'B',
-    rating: 78,
+    rating: 81,
     props: { platform: 'pc' },
     title: 'Stray',
     hasArt: true,
     description:
       "Such a charming little game, with a good story. The game manages to really make you feel like you're observing the world through the eyes of a cat, which is a refreshing way of playing.",
     code: 'stray',
+  },
+  {
+    tierLevel: 'C',
+    rating: 81,
+    props: { platform: 'pc' },
+    title: 'The Sims',
+    hasArt: true,
+    description:
+      'This was a very good game when it came out, and it was the first of its kind. As a young kid full of creativity, it was all I needed. ',
+    code: 'the-sims',
+  },
+  {
+    tierLevel: 'A',
+    rating: 90,
+    props: { platform: 'pc' },
+    title: 'The Sims 2',
+    hasArt: true,
+    description:
+      'Easily the best Sims game of all time. I think it aged well, and it is a game I kept coming back to at various stages of my life. Building and designing your own houses is simple, yet the possibilities are endless. The expansions also added a lot of good content. An absolute staple in the genre of simulation games.',
+    code: 'the-sims-2',
+  },
+  {
+    tierLevel: 'E',
+    rating: 50,
+    props: { platform: 'pc' },
+    title: 'The Sims 3',
+    hasArt: true,
+    description:
+      "Was kinda disappointed with this game. It's cool that you have one connected neighborhood, but house building was not as fun and I just didn't care much for this sequel.",
+    code: 'the-sims-3',
+  },
+  {
+    tierLevel: 'D',
+    rating: 68,
+    props: { platform: 'pc' },
+    title: 'Untitled Goose Game',
+    hasArt: true,
+    description:
+      "There was a lot of hype around this game, so I succumbed. It's pretty fun and quirky, but my expectations were set a bit too high. Probably more fun if your co-op partner actually likes the game lol.",
+    code: 'untitled-goose-game',
   },
   {
     tierLevel: 'A',
@@ -610,6 +959,16 @@ export const games = [
     code: 'celeste',
   },
   {
+    tierLevel: 'B',
+    rating: 85,
+    props: { platform: 'switch' },
+    title: 'F-Zero 99',
+    hasArt: true,
+    description:
+      'Wow, what a breath of fresh air. Beautiful pixel art graphics, and basic but effective gameplay. Would tier higher if it was easier to perform well in this game \ud83d\ude09',
+    code: 'f-zero-99',
+  },
+  {
     tierLevel: 'C',
     rating: 63,
     props: { platform: 'switch' },
@@ -623,11 +982,11 @@ export const games = [
     tierLevel: 'C',
     rating: 80,
     props: { platform: 'switch' },
-    title: 'Mario Kart 8DX',
+    title: 'Mario Kart 8 Deluxe',
     hasArt: true,
     description:
       "This remake is fine, it's just quite similar to the original that came out... one console before. With the expansion pack, the amount of tracks to choose from feels endless though.",
-    code: 'mario-kart-8dx',
+    code: 'mario-kart-8-deluxe',
   },
   {
     tierLevel: 'D',
@@ -754,6 +1113,16 @@ export const games = [
     description:
       "My least favorite 3D Zelda, but it's a still a decent game. It drags too much at the start and there's too much handholding, but once you get to the better dungeons it finally gets good. There are a lot of things I would've liked to see differently, but would still recommend the overall experience.",
     code: 'zelda-skyward-sword-hd',
+  },
+  {
+    tierLevel: 'B',
+    rating: 88,
+    props: { platform: 'switch' },
+    title: 'Zelda: Tears of the Kingdom',
+    hasArt: true,
+    description:
+      "It hurts to put this relatively low, since it's actually a great game. But after all the hours I poured into BotW, I was still so fatigued from this world. I think this game had great moments, and I liked the story a lot more. But if BotW hadn't existed already, I would have ranked it a lot higher.",
+    code: 'zelda-tears-of-the-kingdom',
   },
   {
     tierLevel: 'D',
