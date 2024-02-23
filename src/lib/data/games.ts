@@ -10,8 +10,8 @@ export const games = [
     code: 'zelda-a-link-between-worlds',
   },
   {
-    tierLevel: 'B',
-    rating: 82,
+    tierLevel: 'C',
+    rating: 77,
     props: { platform: 'ds' },
     title: 'Super Princess Peach',
     hasArt: true,
