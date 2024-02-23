@@ -5,7 +5,8 @@ import { Romcom } from '$lib/models/Romcom';
 
 export const load = (({ params }) => {
   const tierList = new TierList<Romcom>();
-  romcoms.forEach((romcom) => tierList.level[romcom.tierLevel].items.push(new Romcom(romcom)));
+  romcoms.forEach((romcom) => tierList.addItem(new Romcom(romcom)));
+  tierList.sortByRating();
   return {
     display: params.display,
     tierList,

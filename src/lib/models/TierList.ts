@@ -24,6 +24,16 @@ export class TierList<T extends Item> {
     this.tiers = Object.values(this.level);
   }
 
+  addItem(item: T): void {
+    this.level[item.tierLevel].items.push(item);
+  }
+
+  sortByRating(): void {
+    for (const tierLevel in this.level) {
+      this.level[tierLevel].items.sort((a, b) => b.rating - a.rating);
+    }
+  }
+
   findByCode(code: string): T | null {
     for (const tier of this.tiers) {
       for (const item of tier.items) {
