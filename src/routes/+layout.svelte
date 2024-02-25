@@ -18,6 +18,7 @@
             <NavItem route="{base}/">Home</NavItem>
             <span class="hidden md:inline-block w-2" />
             <NavItem route="{base}/tier-lists/games">Games</NavItem>
+            <NavItem route="{base}/tier-lists/rollercoasters">Rollercoasters</NavItem>
             <NavItem route="{base}/tier-lists/romcoms">Romcoms</NavItem>
             <span class="hidden md:inline-block w-2" />
             <NavItem route="{base}/about">About</NavItem>

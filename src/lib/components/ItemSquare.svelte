@@ -40,7 +40,7 @@
     "
     >
       <div class="mx-1">{item.rating}/100</div>
-      <span class="ml-auto mr-2">{item.mainProp}</span>
+      <span class="ml-auto mr-2 overflow-hidden text-right">{item.mainProp}</span>
     </div>
     <div
       class="
