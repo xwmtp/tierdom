@@ -86,12 +86,12 @@ export const romcoms = [
     code: 'dirty-dancing',
   },
   {
-    tierLevel: 'C',
-    rating: 78,
+    tierLevel: 'D',
+    rating: 73,
     props: { year: '1993' },
     title: 'Groundhog Day',
     hasArt: true,
-    description: 'Love me some time travel stories any day. Pretty charming, but not the pinnacle of romance for me.',
+    description: 'Pretty charming, but not the pinnacle of romance for me.',
     code: 'groundhog-day',
   },
   {
