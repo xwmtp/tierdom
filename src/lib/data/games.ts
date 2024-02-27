@@ -304,7 +304,7 @@ export const games = [
   {
     tierLevel: 'A',
     rating: 88,
-    props: { platform: 'gb' },
+    props: { platform: 'gameboy' },
     title: 'Pokémon Red',
     hasArt: true,
     description: 'Classic. 1st gen, best gen.',
@@ -438,7 +438,7 @@ export const games = [
   {
     tierLevel: 'C',
     rating: 67,
-    props: { platform: 'gbc' },
+    props: { platform: 'gameboy color' },
     title: 'Game & Watch Gallery 2',
     hasArt: true,
     description:
@@ -448,7 +448,7 @@ export const games = [
   {
     tierLevel: 'D',
     rating: 65,
-    props: { platform: 'gbc' },
+    props: { platform: 'gameboy color' },
     title: "Mickey's Racing Adventure",
     hasArt: true,
     description: "Know that I had a lot fun with this as a kid, but honestly can't remember the details very clearly.",
@@ -457,7 +457,7 @@ export const games = [
   {
     tierLevel: 'B',
     rating: 86,
-    props: { platform: 'gbc' },
+    props: { platform: 'gameboy color' },
     title: 'Pokémon Yellow',
     hasArt: true,
     description: 'Like Pokémon Red, but with a Pikachu following your player around. What more can you want.',
@@ -466,7 +466,7 @@ export const games = [
   {
     tierLevel: 'D',
     rating: 70,
-    props: { platform: 'gbc' },
+    props: { platform: 'gameboy color' },
     title: 'The Smurfs Nightmare',
     hasArt: true,
     description:
